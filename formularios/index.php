@@ -21,10 +21,9 @@ if(isset($_GET['id']) && !empty($_GET['id']))
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
+    <meta name="viewport" content="width, initial-scale=1.0">
     
-    , initial-scale=1.0">
-    <title>Document</title>
+    <title>Registros</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -33,12 +32,12 @@ if(isset($_GET['id']) && !empty($_GET['id']))
 
 <body>
 <?php  
-    include('../menu.php')
+    include('menuadmi.php')
 
 ?>    
 
 <div class="container" >
-<h2 class="text-center mb-2" > Clientes Registrados </h2>
+<h2 class="text-center mb-2" > Usuarios Registrados </h2>
     <div class="row" >
         <?php
         while($pt = mysqli_fetch_object($data)){
@@ -48,7 +47,7 @@ if(isset($_GET['id']) && !empty($_GET['id']))
                     echo "<h5>Nombre:  $pt->nombrecompleto  </h5>";
                         echo "<p> <b> Celular: $pt->celular </b>  </p>";
 
-                        echo "<div class='center'> <a class='btn btn-success' href='". ROOT ."/formularios/edit.php?id=$pt->id' >Modificar</a> - <a class='btn btn-danger' href='". ROOT ."/formularios/index.php?id=$pt->id' >Eliminar</a> </div>";;
+                        echo "<div class='center'> <a class='btn btn-Primary' href='". ROOT ."/formularios/edit.php?id=$pt->id' >Modificar</a> - <a class='btn btn-light' href='". ROOT ."/formularios/index.php?id=$pt->id'> Eliminar </a> </div>";
                     
                         echo "</div>";
                     echo "</div>";
@@ -60,6 +59,7 @@ if(isset($_GET['id']) && !empty($_GET['id']))
 
     </div>
 </div>
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

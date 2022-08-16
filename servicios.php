@@ -1,5 +1,4 @@
 <?php
-/*  en este index puedo crear todo el contenido multimedia */
 
 include_once('config/config.php');
 
@@ -12,118 +11,119 @@ include_once('config/config.php');
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- CSS only -->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Servicios</title>
+<!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
-
 <body>
-
 <?php  
 include('menu.php')
 ?>
+    <H1 class="text-center"> SERVICIOS </H1>
+<br>
 
-<div class="container">
-
-  <h1 class="text-center"> ¡Bienvenido a Auditorias Rodriguez S.A.S 
-  <br>
-  <br>
-  Aquí encontraras las mejores auditorias para ti y tu empresa! </h1>
-  <br>
-</div>
-
-<!-- Carrusel-->
-<div class="d-flex justify-content-center">
-  <div id="carouselExampleIndicators" class="carousel slide "style="width:80%" data-bs-ride="true">
-  
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<!-- servicios -->
+<div class="row">
+  <div class="row row-cols-1 text-center mt-5 mb-3">
+    <h2>Parte de nuestros servicios son:</h2>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Auditoria Personalizada</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Grupal <small class="text-muted fw-light">/Individual</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Toma de tiempos</li>
+            <li>Bases de datos</li>
+            <li>Soporte personalizado</li>
+            <li>Resultados exactos</li>
+          </ul>
+          <a href="./formularios/add.php"  target="_blank"> <button type="button" class="w-100 btn btn-lg btn-primary">Más información</button></a>
+        </div>
       </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <a href="./servicios.php" target="_blank" title="Auditoria Financiera"> <img src="../images/asesoriasfinancieras.PNG"  class="d-block w-100" height="420px" alt="auditoria financieras"> </a>
-        </div>
-          <div class="carousel-item">
-             <a href="./servicios.php" target="_blank" title="Auditoria personalizadas"> <img src="../images/asesoriaspersonalizadas.png" href="./servicios.php" class="d-block w-100"height="420px" alt="auditoria personalizadas"> </a>
-          </div>
-              <div class="carousel-item">
-                <a href="./servicios.php"  target="_blank" title="Auditoria interna y externa"> <img src="../images/auditoriainternayexterna.jpg" href="./servicios.php" class="d-block w-100" height="420px" alt="auditoria interna y externa"> </a>
-              </div>
-
-    
-
-
-
-      <button class="carousel-control-prev" type="button"   data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </button>
-          <button class="carousel-control-next" type="button"   data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-          </button>
-
     </div>
-  </div>
-</div> 
-
-
-
-<!-- Texto-->
-<div>
-
-    <div class="container col-lg-10 col-md-9 col-sm-12  justify-content-center">
-
-        <div class="col-lg-10 col-md-9 col-sm-12  justify-content-center">
-          <p>
-            <br>
-            <br>
-           <h2> ¿En qué consiste una Auditoria?</h2>
-           <br>
-           <h5>Se trata de examinar, evaluar, controlar y dar seguimiento a la situación económica y operativa de una organización, de tal forma que se tenga visibilidad profunda de la situación de la empresa: cómo está operando, cuáles son sus procesos y si estos funcionan, en qué gasta, cómo y cuánto gasta, entre otros factores.</h5>
-          </p>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+        <h4 class="my-0 fw-normal">Auditoria Financiera</h4>
         </div>
-    
-        <br>
-        <div class="col-lg-10 col-md-9 col-sm-12  justify-content-center">
-          <p>
-
-          <h2>¿Cuáles son los beneficios de la auditoría? </h2>
-            <br>    
-            <h5>Las auditorías permiten identificar, analizar y corregir alguna deficiencia u omisión en los procesos. Muestra de manera tangible a terceros (inversionistas y clientes), el cumplimiento de normas de excelencia y calidad mundial.</h5>
-
-          </p>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Empresarial <small class="text-muted fw-light">/Áreas</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Análisis de gastos</li>
+            <li>Proyecciones y estimaciones monetarias </li>
+            <li>Optimización de flujo de caja</li>
+            <li>Mejoras economicas empresariales</li>
+          </ul>
+          <a href="./formularios/add.php"  target="_blank"> <button type="button" class="w-100 btn btn-lg btn-primary">Más información</button> </a>
         </div>
+      </div>
     </div>
-</div>  
- 
-
-  
-
-
-<div class="card text-center">
-  <div class="card-header">
-    ¡No te conformes con resultados buenos, siempre hay algo mejor!
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">AQUI ENCONTRARÁS A TU MEJOR ALIADO</h5>
-    <p class="card-text">Ven y conoce nuestros servicios.</p>
-    <a href="./servicios.php" target="_blank" class="btn btn-primary">Vamos</a>
-  </div>
-  <div class="card-footer text-muted">
-    Auditorias Rodríguez
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm ">
+        <div class="card-header py-3 text-white ">
+        <h4 class="my-0 fw-normal">Auditoria Interna y Externa</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Sucursales <small class="text-muted fw-light">/Compañía</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Reconocimiento total de la compañia</li>
+            <li>Adecuaciones, modificaciones, capacitaciones</li>
+            <li>Procesos estipulados para implementar</li>
+            <li>Posicionamiento competitivo</li>
+          </ul>
+          <a href="./formularios/add.php"  target="_blank"> <button type="button" class="w-100 btn btn-lg btn-primary">Más información</button></a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <br>
 <br>
 
+<div class="text-center">
 
-<div class=" my-0">
+<H1>Conoce por qué es importante realizar auditorias en tu compañia, mira este video corto y no dudes en escribirnos </H1>
+</div>
+
+<br>
+<div class="row d-flex justify-content-center">
+
+   <div class="col-lg-10 col-md-8 col-sm-12">
+
+      <div class="row col-lg-10 col-md-12 col-sm-12">
+        <iframe width="751" height="413" src="https://www.youtube.com/embed/e0b4Oe2mIvM" title="Auditorias: ¿Por qué son importantes para mi empresa?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="text-center">
+      <div class="col-lg-10 col-md-12 col-sm-12 text-center">
+        <p><h4>Nos puedes encontrar en Bogotá de forma personal y tambien hacemos auditorias a distancia por medio de videollamadas, las cuales quedarán grabadas para tu corporación.</p></h4>   
+   </div>
+</div>
+
+<br>
+<div class="row mt-5">
+  <div class="ratio ratio-21x9">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.027394030785!2d-74.15382645!3d4.61576735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c21cde01c87%3A0xa3eb184a01632b7c!2sMonumento%20a%20las%20Banderas!5e0!3m2!1ses!2sco!4v1660609993072!5m2!1ses!2sco" width="400" height="400" style="border:0;" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+<br>
+<br>
+
+
+    <div class=" my-0">
   <!-- Footer -->
   <footer
           class="text-center text-lg-start text-white"
@@ -231,7 +231,7 @@ include('menu.php')
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
       © 2022 Copyright:
-      <a class="text-white" 
+      <a class="text-white"
          >MichellRodriguez</a
         >
     </div>
@@ -240,8 +240,7 @@ include('menu.php')
   <!-- Footer -->
 </div>
 
-
-<!-- JavaScript Bundle with Popper -->
+     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,11 +1,7 @@
+
 <?php
-/*  en este index puedo crear todo el contenido multimedia */
-
 include_once('config/config.php');
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,109 +9,98 @@ include_once('config/config.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- CSS only -->
+    <title>Quienes somos</title>
+<!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
-
 <body>
-
 <?php  
 include('menu.php')
 ?>
-
-<div class="container">
-
-  <h1 class="text-center"> ¡Bienvenido a Auditorias Rodriguez S.A.S 
-  <br>
-  <br>
-  Aquí encontraras las mejores auditorias para ti y tu empresa! </h1>
-  <br>
+<div class="col-lg-10 col-md-10 col-sm-12 justify-content-center" >
+    <h1 class="text-center">QUIENES SOMOS</h1>  
 </div>
 
-<!-- Carrusel-->
-<div class="d-flex justify-content-center">
-  <div id="carouselExampleIndicators" class="carousel slide "style="width:80%" data-bs-ride="true">
-  
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="carousel-indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <a href="./servicios.php" target="_blank" title="Auditoria Financiera"> <img src="../images/asesoriasfinancieras.PNG"  class="d-block w-100" height="420px" alt="auditoria financieras"> </a>
-        </div>
-          <div class="carousel-item">
-             <a href="./servicios.php" target="_blank" title="Auditoria personalizadas"> <img src="../images/asesoriaspersonalizadas.png" href="./servicios.php" class="d-block w-100"height="420px" alt="auditoria personalizadas"> </a>
+
+<br>
+
+<div class="col-lg-8 col-md-10 col-sm-12 align-items-center justify-content-center">
+  <div class="container mp-8 mt-1">
+    <div class="col-lg-8 col-md-10 col-sm-12" >
+      <div class="card width=300px 30rem">
+          <img src="./images/imagenmujer1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class=""> <h4> ¡Hola! Mi nombre es Michell y te ayudaré con tus auditorias para que mejores la eficiencia de tu empresa, empecemos. </p></h4>
           </div>
-              <div class="carousel-item">
-                <a href="./servicios.php"  target="_blank" title="Auditoria interna y externa"> <img src="../images/auditoriainternayexterna.jpg" href="./servicios.php" class="d-block w-100" height="420px" alt="auditoria interna y externa"> </a>
-              </div>
-
-    
-
-
-
-      <button class="carousel-control-prev" type="button"   data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </button>
-          <button class="carousel-control-next" type="button"   data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-          </button>
-
+      </div>
     </div>
   </div>
-</div> 
+</div>
+<br>
+<br>
+<div class="center">
+<h5> Aqui encontrarás algunos de los testimonios de quienes han adquirido nuestros productos para que evalues la calidad que manejamos y la calidad que dejaremos en tu compañía. Nuestro lema siempre será la excelencia, ya que ése siempre será el objetivo. Nosotros ya somos los mejores en auditorias y queremos que tu tambien lo seas, asi que bienvenido al cambio.</h5>
+</div>
+<br>
+<br>
+  <h2 class="text-center">TESTIMONIOS</h2>
 
+  <br>
+<div class="justify-content-center">
+  <div class="text-center">
 
-
-<!-- Texto-->
-<div>
-
-    <div class="container col-lg-10 col-md-9 col-sm-12  justify-content-center">
-
-        <div class="col-lg-10 col-md-9 col-sm-12  justify-content-center">
-          <p>
-            <br>
-            <br>
-           <h2> ¿En qué consiste una Auditoria?</h2>
-           <br>
-           <h5>Se trata de examinar, evaluar, controlar y dar seguimiento a la situación económica y operativa de una organización, de tal forma que se tenga visibilidad profunda de la situación de la empresa: cómo está operando, cuáles son sus procesos y si estos funcionan, en qué gasta, cómo y cuánto gasta, entre otros factores.</h5>
-          </p>
-        </div>
-    
-        <br>
-        <div class="col-lg-10 col-md-9 col-sm-12  justify-content-center">
-          <p>
-
-          <h2>¿Cuáles son los beneficios de la auditoría? </h2>
-            <br>    
-            <h5>Las auditorías permiten identificar, analizar y corregir alguna deficiencia u omisión en los procesos. Muestra de manera tangible a terceros (inversionistas y clientes), el cumplimiento de normas de excelencia y calidad mundial.</h5>
-
-          </p>
-        </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card w-75 h-60">
+          <img src="./images/hombretestimonio1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Carlos Torres</h5>
+            <p class="card-text">Debo decir que después de la auditoría realizada por Michell, mi empresa mejoró muchísimo. Vendemos más, los empleados están contentos y mejoramos los indicadores de productividad.</p>
+          </div>
+        <div class="card-footer">
+        <small class="text-muted">Carlos, aditoría financiera</small>
+      </div>
     </div>
-</div>  
- 
-
-  
-
-
-<div class="card text-center">
-  <div class="card-header">
-    ¡No te conformes con resultados buenos, siempre hay algo mejor!
   </div>
+  <div class="col">
+    <div class="card w-75 h-60">
+      <img src="./images/mujertestimonio1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Adriana Suárez</h5>
+        <p class="card-text">Antes tenía inconvenientes con la calidad de mis productos, pero después de la  auditoría de Michell, la calidad ya no es problema, las quejas disminuyeron casi a cero y somos los mejores en nuestra área.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Adriana, auditoría general</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card w-75 h-60">
+      <img src="./images/mujertestimonio2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Beatríz Ibañez</h5>
+        <p class="card-text">Teniendo en cuenta la calidad de mi empresa, pensé que nada podía mejorar, pero al realizar la auditoría personalizada me dí cuenta que la excelencia es el objetivo ya que siempre hay algo que mejorar, siempre estaré muy agradecida.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Beatríz, auditoría personalizada</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<br>
+<br>
+
+
+<div class="card">
+  <h5 class="card-header">Somos reconocidos por nuestros resultados</h5>
   <div class="card-body">
-    <h5 class="card-title">AQUI ENCONTRARÁS A TU MEJOR ALIADO</h5>
-    <p class="card-text">Ven y conoce nuestros servicios.</p>
-    <a href="./servicios.php" target="_blank" class="btn btn-primary">Vamos</a>
-  </div>
-  <div class="card-footer text-muted">
-    Auditorias Rodríguez
+    <h5 class="card-title">Siempre buscando que mejores hasta el minimo detalle</h5>
+    <p class="card-text">Ven y hagamos que tu compañía sea la mejor, no lo dudes, siempre hay algo que mejorar y el objetivo es la excelencia.</p>
+    <a href="./servicios.php" target="_blank" class="btn btn-primary">Empecemos</a>
   </div>
 </div>
 
@@ -231,7 +216,7 @@ include('menu.php')
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
       © 2022 Copyright:
-      <a class="text-white" 
+      <a class="text-white"
          >MichellRodriguez</a
         >
     </div>
@@ -239,9 +224,8 @@ include('menu.php')
   </footer>
   <!-- Footer -->
 </div>
-
-
-<!-- JavaScript Bundle with Popper -->
+    
+     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

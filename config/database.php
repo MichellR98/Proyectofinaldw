@@ -24,10 +24,8 @@ class database {
 
     }
 
-
-
-
-
 }
 
 ?>
+ 
+

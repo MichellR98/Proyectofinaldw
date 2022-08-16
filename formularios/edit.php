@@ -1,3 +1,5 @@
+
+<link rel="stylesheet" href="./css/style.css" />
 <?php
 
 include('../config/config.php');
@@ -35,7 +37,7 @@ if (isset($_POST) && !empty($_POST)){
 <body>
 
 <?php  
-    include('../menu.php')
+    include('menuadmi.php')
 
 ?>
     
@@ -46,7 +48,7 @@ if (isset($_POST) && !empty($_POST)){
         }
 
     ?>
- <h2 class="text-center mb-2" > Modificar Cliente</h2>
+ <h2 class="text-center mb-2" > Detalles/Modificar datos</h2>
 
  <form method="POST" enctype="Multipart/form-data" >
 
@@ -71,16 +73,17 @@ if (isset($_POST) && !empty($_POST)){
     <div class="row mb-2" >
         <div class="col">
 
-            <textarea name="descripcion" id="descripcion" placeholder="descripcion de la solicitud" class="form-control">
+            <textarea name="descripcion" id="descripcion" class="form-control">
             <?= $dp->descripcion ?></textarea>
         </div>
         
     </div>
-        <button class="btn btn-success" > Modificar </button>
+        <button class="btn btn-success"> Modificar </button>
  </form>
 
 
 </div>
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
